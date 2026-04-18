@@ -30,8 +30,8 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.1 }}
                 >
-                    The <span className="text-secondary">Strategist.</span><br />
-                    The <span className="bg-gradient-to-r from-accent-blue to-accent-lime bg-clip-text text-transparent">AI Force Multiplier.</span>
+                    AI Powered <span className="text-secondary">Builder.</span><br />
+                    Built Smarter. <span className="bg-gradient-to-r from-accent-blue to-accent-lime bg-clip-text text-transparent">Convert Better.</span>
                 </motion.h1>
 
                 <motion.p
@@ -40,8 +40,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
-                    Senior Architect bridging the gap between vision and execution. I build
-                    high-performance systems where precision meets automation.
+                    I turn ideas into high-converting, high-performance websites using smart AI workflows and expert execution.
                 </motion.p>
 
                 <motion.div

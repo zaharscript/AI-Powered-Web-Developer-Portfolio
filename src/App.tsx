@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import BentoGrid from './components/BentoGrid'
 import Projects from './components/Projects'
+import techBg from './assets/tech.jpg'
 
 function App() {
   return (
@@ -10,11 +11,11 @@ function App() {
       <div
         className="fixed inset-0 w-full h-full pointer-events-none z-0"
         style={{
-          backgroundImage: "url('/assets/tech.jpg')",
+          backgroundImage: `url(${techBg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          opacity: 0.2,
+          opacity: 0.5,
         }}
       />
       {/* Page content sits above the background */}
