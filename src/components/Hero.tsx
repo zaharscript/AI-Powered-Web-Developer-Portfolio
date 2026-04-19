@@ -85,7 +85,7 @@ const Hero = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
 
           <img
-            src="/hero-Zahar.png"
+            src="/hero-Zahar-2.png"
             alt="Zahar Hero Portrait"
             className="relative z-10 h-full w-auto max-w-none object-contain drop-shadow-[0_40px_100px_rgba(0,0,0,0.65)]"
           />
