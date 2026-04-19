@@ -81,7 +81,7 @@ const BentoGrid = () => {
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[240px]">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[280px]">
                     {categories.map((cat, i) => (
                         <motion.div
                             key={cat.title}
@@ -101,7 +101,7 @@ const BentoGrid = () => {
                             </div>
 
                             <div>
-                                <h3 className="text-xl mb-2 group-hover:text-accent-lime transition-colors">{cat.title}</h3>
+                            <h3 className="text-lg md:text-xl leading-tight break-words mb-2 group-hover:text-accent-lime transition-colors">{cat.title}</h3>
                                 <p className="text-sm text-secondary mb-4 leading-relaxed">
                                     {cat.description}
                                 </p>
@@ -110,7 +110,7 @@ const BentoGrid = () => {
                                     {cat.items.map(item => (
                                         <span
                                             key={item}
-                                            className="flex items-center gap-1.5 text-[10px] font-mono font-bold px-2 py-1 rounded-md bg-background/50 border border-border/50 text-secondary hover:border-accent-lime/40 hover:text-primary transition-colors duration-300"
+                                            className="flex items-center gap-1.5 text-sm font-mono font-bold px-3 py-2 rounded-md bg-background/50 border border-border/50 text-secondary hover:border-accent-lime/40 hover:text-primary transition-colors duration-300"
                                         >
                                             {techLogos[item] && (
                                                 <img
